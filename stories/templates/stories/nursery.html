@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Hello World, this is my new html page for the nursery</p>
+            {% block content %}
+        <!-- Content Goes here -->
+    <p class="text-4xl text-blue-500 font-bold">Hello World, this is my new html page for the nursery</p>
+            {% endblock content %}
 </body>
 </html>
