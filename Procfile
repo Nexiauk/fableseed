@@ -1,1 +1,1 @@
-web: gunicorn fableseed.wsgi
+web: gunicorn story_forum.wsgi
