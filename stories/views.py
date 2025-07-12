@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def index(request):
+def stories(request):
     """
     Renders the nursery.html template, which shows a grid of all Fableseeds
 
